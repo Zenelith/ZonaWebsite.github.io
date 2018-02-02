@@ -1,0 +1,111 @@
+html
+{ 
+  height: 100%;
+}
+
+*
+{ 
+  margin: 0;
+  padding: 0;
+}
+
+body
+{ 
+  font: normal .78em arial, sans-serif;
+  background: #444;
+  color: #555;
+}
+
+p
+{ 
+  padding: 0 0 16px 0;
+  line-height: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6 
+{ 
+  font: normal 175% 'century gothic', arial, sans-serif;
+  color: #111;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2
+{ 
+  font: normal 175% 'century gothic', arial, sans-serif;
+  color: #444;
+}
+
+h4, h5, h6
+{ 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #555;
+}
+
+#main, #header, #logo, #menubar, #site_content, #footer
+{
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main
+{ 
+  width: 910px;
+  background: url(content.png) repeat-y;
+}
+
+#site_content
+{ 
+  width: 890px;
+  overflow: hidden;
+  background: #F8F8F8;
+} 
+
+#content
+{ 
+  text-align: left;
+  width: 600px;
+  float: left;
+  padding: 20px 0 15px 30px;
+}
+
+#content ul
+{ 
+  margin: 2px 0 22px 0px;
+}
+
+#content ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;
+}
+
+
+#footer
+{ width: 890px;
+  height: 33px;
+  padding: 20px 0 4px 0;
+  text-align: center; 
+  background: #555;
+  color: #AAA;
+  border-top: 1px solid #FFF;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+#footer a
+{ 
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover
+{ 
+  color: #FFF;
+  text-decoration: none;
+}
